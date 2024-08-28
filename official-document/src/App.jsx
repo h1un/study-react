@@ -9,6 +9,7 @@ import FancyText from "./ui표현하기/FancyText.jsx";
 import InspirationGenerator from "./ui표현하기/InspirationGenerator.jsx";
 import Copyright from "./ui표현하기/Copyright.jsx";
 import Button from "./ui표현하기/Button.jsx";
+import Toolbar from "./ui표현하기/Toorbar.jsx";
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
             <Copyright year={2004} />
         </InspirationGenerator>
         <Button/>
+        <Toolbar/>
     </>
   )
 }
